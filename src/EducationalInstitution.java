@@ -4,9 +4,9 @@ public class EducationalInstitution {
 
     private final String name;
     private final String city;
-    private int numberOfStudents;
-    private double averageRating;
-    private int foundationYear;
+    private final int numberOfStudents;
+    private final double averageRating;
+    private final int foundationYear;
 
     public EducationalInstitution(String name, String city, int numberOfStudents, double averageRating, int foundationYear) {
         this.name = name;
