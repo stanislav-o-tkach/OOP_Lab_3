@@ -18,11 +18,11 @@ void main() {
         System.out.println(institution);
     }
 
-    EducationalInstitution target = new EducationalInstitution("KNU", "Kyiv", 15000, 4.8, 1834);
+    EducationalInstitution founds = new EducationalInstitution("KNU", "Kyiv", 15000, 4.8, 1834);
     boolean found = false;
 
     for (EducationalInstitution item : institutions) {
-        if (item.equals(target)) {
+        if (item.equals(founds)) {
             System.out.println("\nОб'єкт знайдено: " + item);
             found = true;
             break;

@@ -52,9 +52,4 @@ public class EducationalInstitution {
                 Objects.equals(name, that.name) &&
                 Objects.equals(city, that.city);
     }
-
-    @Override
-    public int hashCode() {
-        return Objects.hash(name, city, numberOfStudents, averageRating, foundationYear);
-    }
 }
