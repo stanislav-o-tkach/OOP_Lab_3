@@ -36,6 +36,7 @@ public class EducationalInstitution {
         return foundationYear;
     }
 
+    @Override
     public String toString() {
         return String.format("Заклад: %-15s | Місто: %-10s | Студенти: %-5d | Рейтинг: %-5.1f | Рік: %d",
                 name, city, numberOfStudents, averageRating, foundationYear);
